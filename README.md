@@ -18,3 +18,15 @@
    <script src="http://code.jQuery,com/jQuery-3.2.1.min.js"></script>
 </head>
 ```
+
+## 제이쿼리 코드 구조
+
+|선택자 형식 | jQuery 코드 |
+|:---:|:---|
+|요소 선택자| $("p").hide(); |
+|.class 선택자| $(".c1").hide(); |
+|#id 선택자 | $("#oh").hide();|
+|첫번째 요소| $("p:first").hide();|
+|속성 선택자| $("[href]")|
+|모든 선택자| $("*").hide();|
+|자기 자신| $(this).hide();|
