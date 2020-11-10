@@ -44,7 +44,7 @@
 
 ```javascript
 $(document).ready(function(){
- $("p.q1").click(function(){
+ $("p.q1").on("click", function(){
   $("span.q1").show();
  });
 });
@@ -113,7 +113,7 @@ $(document).ready(function(){
 > 단일 구문 내에서 동일한 요소 선택자에 여러 기능의 메소드를 한꺼번에 적용
 
 ```javascript
-$("p").click(function(){
+$("p").on("click",function(){
  $("#red").css("color","red")
           .slideDown(2000)
           .slideUp(6000)
