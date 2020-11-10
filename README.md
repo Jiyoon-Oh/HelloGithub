@@ -72,7 +72,7 @@ $(document).ready(function(){
   $(document).ready(function () {
   var xWidth=100;
   var yHeight=100;
-  $("div").click(function () {
+  $("div").on("click",function () {
    $(this).width(xWidth).addClass("box");
    $(this).height(yHeight).addClass("box");
    xWidth=xWidth-10;
