@@ -1,0 +1,78 @@
+*{margin:0;}
+li{list-style : none;}
+
+.header
+{
+  background-color : red;
+  padding : 3px;
+}
+
+.menu-top
+{
+  background-color : skyblue;
+  padding : 3px;
+}
+
+.menu-top .ul-menu-top
+{
+  background-color : white;
+  position : absolute;
+  right:0;
+  
+}
+
+.menu-top .ul-menu-top>li{
+  display : inline-block;
+}
+
+.menu-search
+{
+  background-color : blue;
+  padding : 3px;
+}
+
+.menu-search .logo{
+   background-color : lightyellow;
+  display : inline-block;
+}
+
+.menu-search .search-area{
+  background-color : gray;
+  display : inline-block;
+  position : absolute;
+  left : 160px;
+  top :12px;
+}
+
+.menu-search .partner-top{
+  background-color : lightgray;
+  display : inline-block;
+  position : absolute;
+  right : 0px;
+  top : 8px;
+}
+
+
+.menu-nav
+{
+  background-color : yellow;
+  padding : 3px;
+}
+
+.cat-open
+{
+  background-color : lightyellow;
+  padding : 3px;
+}
+
+.cat-menu
+{
+  background-color : pink;
+  
+}
+
+#footer
+{
+  background-color : black;
+  color:white;
+}
